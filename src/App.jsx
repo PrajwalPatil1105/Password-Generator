@@ -33,7 +33,7 @@ function App() {
  
   return (
     <>
-     <h1 className='text-center text-white text-4xl mt-10 pb-20'>Password Geneerator</h1>
+     <h1 className='text-center text-white text-4xl mt-10 pb-20'>Password Generator</h1>
      <div className="main">
       <div className='line1'>
           <input className='passinput' type="text" placeholder='Password' value={password}  />
