@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.main{
+    width: 800px;
+    height:130px;
+    background-color: rgb(124, 158, 158);
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.line1{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 780px;
+}
+
+
+input{
+    border-radius: 5px;
+    width: 562px;
+    height:40px;
+    margin: auto;
+    font-size: 20px;
+    background-color:white ;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.passinput::placeholder{
+    font-family: "Roboto", sans-serif;
+    font-size: 500;
+}
+
+button{
+    height: 40px;
+    width: 70px;
+    background-color: darkseagreen;
+    margin-left: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:darkseagreen ;
+}
+
+
+
+.line2{
+    margin-top: 15px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 738px;
+}
+
+
+.range{
+    width: 280px;
+}
+
+.rangelable{
+    margin-top: 8px;
+    padding-right: 90px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+}
+
+.numlab{
+    margin-top: 8px;
+    padding-right: 40px;
+    font-family: "Roboto", sans-serif;
+   
+}
+
+
+.charlab{
+    margin-top: 8px;
+    font-family: "Roboto", sans-serif;
+}
+
+.cb1{
+    width: 20px;    
+}
+
+.cb2{
+    width: 20px;
+    
+}
+
+
+@media (max-width:391px) {
+    
+    .main{
+        width: 370px;
+        height: 340px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .line1{
+        width: 300px;
+    }
+
+    input{
+        width: 310px;
+    }
+
+    button{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
+    .line2{
+        width: 450px;
+        margin-top: 40px;
+       display:block;
+    }
+
+    .range{
+        width:300px;
+        margin-left: 5px;
+    }
+
+    .rangelable{
+        padding-right: 1180px;
+        margin-left: 120px;
+        letter-spacing: 2px;
+
+    }
+
+    .numlab{
+        margin-left: 5px;
+        font-size: 19px;
+    }
+    
+    
+    .charlab{
+        margin-left: 5px;
+        font-size: 19px;
+    }
+    
+    
+  
+
+
+    .cb1{
+        height: 20px;
+        margin-top: 50px;
+    }
+
+    .cb2{
+        height: 20px;
+    }
+
+}
